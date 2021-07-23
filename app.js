@@ -34,6 +34,7 @@ const login2 = new Login({
 });
 
 const logins = [login1,login2]
+var a ="";
 
 
 
@@ -48,7 +49,9 @@ app.post("/",function(req,res){
           res.redirect("/finance");}
         else
         {
-            res.redirect("/");
+            // res.redirect("/");
+            a = "Invalid Credentials";
+            res.render("login",{error:a});
       }
 
   })
@@ -69,8 +72,9 @@ app.get("/",function(req,res){
     //             }
     //         });
     //     }});
-    
-    res.render("login");
+    // a = "";
+    res.render("login",{error:a})
+    // res.render("login");
 })
 // //finance
 

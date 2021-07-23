@@ -1,76 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-    <title></title>
-  </head>
-  <body>
-
-<div class="wizard-form">
-  <section class="get-in-touch">
-     <h1 class="title">Issue Form</h1>
-     <form class="contact-form row">
-        <div class="form-field col-lg-6">
-           <input id="name" class="input-text js-input" type="text" required autofocus autocomplete="off">
-           <label class="label" for="name">Name</label>
-        </div>
-        
-        <div class="form-field col-lg-6 ">
-           <input id="email" class="input-text js-input" type="text" placeholder="" required autocomplete="off">
-           <label class="label" for="date" >Date</label>
-        </div>
-       
-        <div class="form-field col-lg-6 ">
-           <input id="company" class="input-text js-input" type="text" required autocomplete="off">
-           <label class="label" for="company">Location</label>
-        </div>
-     
-        <div class="col-lg-3 " id="status2">
-             <label for="status" class="form-label input-text" id="situationLabel">Status of situation:</label> -->
-            <!-- <select name="Status" class="form-select input-text label"  id="">
-                <option value="">Status</option>
-                <option value="Urgent">Urgent</option>
-                <option value="Closed">Alert</option>
-                <option value="Pending">Pending</option>
-                <option value="In process">In process</option>
-            </select>
-        </div>
-     
-        <div class="col-md-4"> -->
-           <!-- <label for="Department" class="form-label input-text">Department:</label> -->
-           <!-- <select name="Department" class="form-select input-text label "  id="departementposition">
-               <option value="">Department</option>
-               <option value="Finance">Finance</option>
-               <option value="Accounts">Accounts</option>
-               <option value="Transportation">Transportation</option>
-               <option value="OtherIssues">OtherIssues</option>
-           </select>
-       </div id="issueposition">
-        <div class="form-field col-lg-6 ">
-          <input id="phone" class="input-text js-input" type="text" required autocomplete="off">
-          <label class="label" for="phone">Issue</label>
-       </div>
-       <div class="form-field col-lg-6 ">
-         <input id="phone" class="input-text js-input" type="text-box" required autocomplete="off">
-         <label class="label" for="phone">Issue Description</label>
-      </div>
-        <div class="form-field col-lg-12">
-           <input class="submit-btn" type="submit" value="Submit">
-        </div>
-     </form>
-  </section>
-</div>
-
-  </body>
-</html>  -->
-
 <!doctype html>
 <html lang="en">
 
@@ -82,22 +9,38 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+        <!--  jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
     <title> Form </title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/location.css">
 </head>
 
 <body>
     <div class="whole">
         <h1 class="get-in-touch title"> Issue Related Information Form </h1>
-    <form action="/finance" method="post">
+    <form action="/finance" method="post" autocomplete="Off">
         <div class="row">
             <div class="col col-md-3 fcol ">
                 <input type="text" class="form-control input-text xyz"  placeholder="First name">
@@ -112,18 +55,11 @@
                 placeholder="Ex: 4 January 2021"> 
         
             </div>
+       
         <div class="form-field col-md-3 cool1">
-            <label for="location" class="form-label xyz"  style="color: #5543ca;">Location:</label>
-            <input type="text" id="location" name="location" class="form-control xyz">
-        </div>
-
-        <!-- <div class="form-field col-lg-6 ">
-            <input id="company" class="input-text js-input" type="text" required autocomplete="off">
-            <label class="label" for="company">Location</label>
-        </div> -->
-
-
-
+        <label for="location" class="form-label xyz"  style="color: #5543ca;">Location:</label>
+        <div class="autocomplete-container" id="autocomplete-container"></div>
+    </div>
 
 
         <div class="col-md-3 cool1">
@@ -170,10 +106,23 @@
     
 
     </div>
-    
+
+    <script src="javascript/location.js"></script>
+    <script>
+        $(document).ready(function(){
+          var date_input=$('input[name="openingDate"]'); //our date input has the name "date"
+          var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+          var options={
+            format: 'dd MM yyyy',
+            container: container,
+            todayHighlight: true,
+            autoclose: true,
+          };
+          date_input.datepicker(options);
+        })
+    </script>
 
     
 </body>
 
 </html> 
-
